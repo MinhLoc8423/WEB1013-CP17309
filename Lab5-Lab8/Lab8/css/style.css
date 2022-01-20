@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width:1000px; 
+    margin:0 auto; 
+}
+.container header{
+    position: relative;
+}
+.topleft img{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 250px !important;
+    height: 100px !important;
+}
+.container header img{
+    width: 1000px;
+    height: 250px;
+    margin: auto; 
+}
+.menu{
+    margin-bottom: -16px;
+    margin-top: -20px;
+}
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    background: orangered;
+}
+.menu ul li{
+    display: inline-table;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li:hover ul{
+    position: absolute;
+    display: block;
+}
+.menu ul li ul {
+    padding:0px;
+    text-align: left;
+    position: absolute;
+    display: none;
+    background: white;
+    border-radius:  3px;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul li ul li{
+    padding-left: 15px;
+    padding-right: 110px;
+}
+.menu ul li ul li:hover {
+    background: orangered;
+    color: white;
+}
+.menu ul li ul li:hover a{
+    color: white;
+}
+.menu ul li ul a{
+    color: orangered;
+}
+.container  article{
+    width: 75%;
+    min-height:300px;
+    float:left; 
+}
+.container > aside{
+    min-height:300px;
+    width: 25%;
+    float: right;
+} 
+.vmenu{
+    margin:5px;
+    list-style:none;
+    border: 3px ;
+    padding-left: 20px;
+    
+}
+.vmenu li{
+    margin-left: -10px;
+    border-radius:3px;
+    box-shadow:0 0 2px gray ;
+}
+.vmenu a{
+    border-bottom: 1px dotted orangered ;
+    display: block;
+    color: orangered;
+    font-variant: small-caps ;
+    font-size: normal ;
+    text-decoration: none ;
+    padding: 8px 8px 8px 0px;
+}
+.vmenu a:hover{
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.container > footer{
+    border-top:5px double orangered; 
+    line-height:50px;
+    background-color:lightcyan; 
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}

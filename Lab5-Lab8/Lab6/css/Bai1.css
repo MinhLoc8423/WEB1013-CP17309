@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width:1000px; 
+    margin:0 auto; 
+}
+.container header img{
+    width: 1000px;
+    height: 250px;
+    display: block;
+    margin: auto; 
+}
+.container nav{
+    background-color: orangered;
+    line-height:40px; 
+    text-align:center;
+    color: white;
+    font-variant:small-caps;
+}
+.container nav a{
+    text-decoration: none;
+    color: white;
+    margin:0 10px;
+}
+.container  nav  a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+.container  article{
+    width: 75%;
+    min-height:400px;
+    float:left; 
+    background-color:rgb(231, 226, 226);
+}
+.container > aside{
+    min-height:400px;
+    width: 25%;
+    float: right;
+    background-color:lightgray;
+} 
+.container > footer{
+    border-top:5px double orangered; 
+    line-height:50px;
+    background-color:lightcyan; 
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
