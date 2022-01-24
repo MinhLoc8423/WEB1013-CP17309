@@ -10,6 +10,9 @@ body{
 }
 .container .header{ 
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
     height: 17.5vh;                                                                                                                                                                     
 }
 .container .header  .header-top{
@@ -138,6 +141,7 @@ body{
 }
 .container .content{
     max-width:1200px; 
+    height: 510px;
     margin:0 auto;  
 }
 .center-content{

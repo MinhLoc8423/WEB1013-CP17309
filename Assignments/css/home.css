@@ -10,6 +10,9 @@ body{
 }
 .container .header{ 
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
     height: 17.5vh;                                                                                                                                                                     
 }
 .container .header  .header-top{
