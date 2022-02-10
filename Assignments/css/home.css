@@ -9,10 +9,8 @@ body{
     background-color: #333;
 }
 .container .header{ 
-    width: 100%;
-    position: sticky;
-    top: 0;
     z-index: 5;
+    display:initial;
     height: 17.5vh;                                                                                                                                                                     
 }
 .container .header  .header-top{
@@ -75,6 +73,12 @@ body{
     margin-left: 80px;
     width: 200px;
     height: 100%;
+}
+.header-bottom{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /* required */
+    z-index: 2;
 }
 .header-bottom ul{
     list-style-type: none;
