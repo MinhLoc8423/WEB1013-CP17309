@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Bai1.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <div>Họ và Tên:</div>
+            <input class="form-control" type="text" tabindex="1">
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>Giới tính:</legend>
+                <label><input type="radio" name="gender">Nam</label>
+                <label><input type="radio" name="gender">Nữ</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <div>Ngày Sinh:</div>
+            <input class="form-control" type="date"> 
+        </div>
+        <div class="form-group">
+            <div>Điểm:</div>
+            <input class="form-control" type="number" max="10" min="0" step="0.25" >
+        </div>
+        <div class="form-group" >
+            <div>Nghề Nghiệp:</div>
+            <input list="occupation" class="form-control">
+            <datalist id="occupation">
+                <option  value="Đầu Bếp"></option>
+                <option  value="Tiếp Viên"></option>
+                <option  value="Quản Lý"></option>
+                <option  value="Nhân Viên Phần Mền"></option>
+                <option  value="Thông Dịch Viên"></option>
+            </datalist>
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>Sở Thích:</legend>
+                <label><input type="checkbox" name="gender">Thể Thao</label>
+                <label><input type="checkbox" name="gender">Du Lịch</label>
+                <label><input type="checkbox" name="gender">Âm Nhạc</label>
+                <label><input type="checkbox" name="gender">Ẩm Thực</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <div>Ghi Chú:</div>
+            <textarea class="form-control" tabindex="2"></textarea>
+        </div>
+        <hr>
+        <input type="button" tabindex="3" class="form-bt" value="Đăng ký">
+        <input type="button" tabindex="4"class="form-bt" value="Nhập lại">
+    </form>
+</body>
+</html>

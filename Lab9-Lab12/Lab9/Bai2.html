@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/Bai2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div class="control">
+            <div>Họ và tên: </div>
+            <input type="text">
+        </div>
+        <div class="control">
+            <div>Giới tính:</div>
+            <label><input type="radio" name="gender" checked>Nam</label>
+            <label><input type="radio" name="gender">Nữ</label>
+        </div>
+        <div class="control">
+            <div>Hình ảnh: </div>
+            <input type="file">
+        </div>
+        <div class="control">
+            <div>Quốc tịch: </div>
+            <select>
+                <option value="3">Thái Lan</option>
+                <option value="2">Lào</option>
+                <option value="1" selected>Việt Nam</option>
+              </select>
+        </div>
+        <div class="control">
+            <div>Sở thích: </div>
+            <label><input type="checkbox">Thể Thao</label>
+            <label><input type="checkbox">Du Lịch</label>   
+            <label><input type="checkbox">Âm Nhạc</label>
+            <label><input type="checkbox">Ẩm Thực</label>
+        </div>
+        <div class="control">
+            <div>Ghi Chú:</div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <hr>
+        <input type="submit" value="Đăng ký">
+        <input type="submit" value="Nhập lại">
+    </form>
+</body>
+</html>
